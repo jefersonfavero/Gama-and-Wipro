@@ -1,15 +1,25 @@
-# Atividade - Estrutura de Repetição
+## Sistema de Compras
 
-Dia 2 de Abril
+O objetivo deste desafio foi o de desenvolver um sistema de compras que rodasse no console, seguindo algumas especificações, sendo elas:
 
-![](q01.bmp)
+* conter estoque;
+  
+* em caso de produto indisponível:
+  * retornar mensagem “Produto Indisponível”. 
+  
+* 3 formas de pagamento:
+    * À vista (dinheiro, pix ou cartão MasterdCard), 20% de desconto; 
+    * À vista no crédito, 10% de desconto; 
+    * Parcelado em até 3x, sem desconto; 
 
-[Código da questão 01](one.java)
+* retornar a nota fiscal com o valor pago de tributos de 9% sobre a compra; 
+  
+* conter um README; 
+  
+* ser feito somente em uma classe; 
+  
+* rodar no console. 
 
-![](q02.bmp)
+O resultado fica assim:
 
-[Código da questão 02](two.java)
-
-![](q03.bmp)
-
-[Código da questão 03](three.java)
+![](compras.gif)
