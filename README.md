@@ -5,8 +5,10 @@
 Repositório dedicado às atividades desenvolvidas durante o Wipro Bootcamp ministrado pela Gama Academy. 
 
 
-
-![](img/vc-faz-parte.png)
+[//]: # "![](img/vc-faz-parte.png)"
+<div style="text-align: center">
+    <img src="img/vc-faz-parte.png" alt="vc-faz-parte" width="300"/>
+</div>
 
 As atividades são focadas no desenvolvimento back-end em Java.
 
