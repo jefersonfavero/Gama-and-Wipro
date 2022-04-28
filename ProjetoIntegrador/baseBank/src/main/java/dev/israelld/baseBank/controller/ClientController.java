@@ -37,7 +37,6 @@ public class ClientController {
     }
     @PostMapping
     public ResponseEntity<Client> Post(@RequestBody Client client) {
-    	Client newObj = service.create(client);
         return ResponseEntity.status(HttpStatus.GONE).body(service.create(client));
     }
     @PutMapping("/{id}")
@@ -45,6 +44,7 @@ public class ClientController {
     	Client newClient = service.update(id, obj);
         return ResponseEntity.status(HttpStatus.ACCEPTED).body(newClient);
     }
+
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> Delete(@PathVariable Long id) {
         service.delete(id);

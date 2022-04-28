@@ -18,6 +18,11 @@ public class AgencyService {
         Optional<Agency> obj = repository.findById(id);
         return obj.orElse(null);
     }
+
+    public Agency findByAgencyName(String agencyName) {
+        Agency obj = repository.findByAgencyName(agencyName);
+        return obj;
+    }
 	
 	public List<Agency> findAll() {
         return repository.findAll();

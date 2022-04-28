@@ -4,7 +4,7 @@ import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 
 @Entity
-@DiscriminatorValue(value = "S")
+@DiscriminatorValue(value = "C")
 public class AccountCurrent extends Account{
 
 }

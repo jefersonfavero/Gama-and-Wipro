@@ -2,10 +2,9 @@ package dev.israelld.baseBank.model;
 
 public enum HistoricType {
 
-	CRIAÇÃO,
-	TRANSFERÊNCIA,
+	TRANSFERÊNCIA_ENVIADA,
+	TRANSFERÊNCIA_RECEBIDA,
 	SAQUE,
-	DEPOSITO,
-	DESATIVAÇÃO;
-	
+	DEPOSITO;
+
 }

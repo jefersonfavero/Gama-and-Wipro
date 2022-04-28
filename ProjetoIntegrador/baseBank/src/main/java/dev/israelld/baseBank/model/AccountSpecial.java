@@ -4,8 +4,7 @@ import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 
 @Entity
-@DiscriminatorValue(value = "C")
-//@PrimaryKeyJoinColumn(name="idAccount")
+@DiscriminatorValue(value = "S")
 public class AccountSpecial extends Account{
 	
 	private double limitValue;

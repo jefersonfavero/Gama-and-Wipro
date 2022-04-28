@@ -48,6 +48,7 @@ public class ManagerController {
     @PostMapping
     public ResponseEntity<Manager> PostByAgency(@RequestBody Manager manager) {
         manager.setAgency(agencyService.findById(manager.getAgency().getId()));
+//        manager.setAgency(agencyService.findByAgencyName(manager.getAgency().getAgencyName()));
         return ResponseEntity.status(HttpStatus.GONE).body(service.create(manager));
     }
 
